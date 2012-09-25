@@ -1,0 +1,8 @@
+mapbox polpols 2012015
+dbname=StreetTV host=127.0.0.1 port=5432 user=polpols password=ben3shi4huo3
+
+(SELECT * from planet_osm_point where name like '%Cardinal%' or name like '%Chassotte%' or name like '%arcia%' or name like '%oxal%') as POINTS ;
+
+(SELECT * FROM geodata WHERE type = 'birdhouse') AS data;
+(select * from planet_osm_polygon where building = 'yes') AS buildings
+WHERE landuse IN ('reservoir', 'water') OR "natural" IN ('lake', 'water', 'land')OR waterway IN ('canal', 'riverbank', 'river')
