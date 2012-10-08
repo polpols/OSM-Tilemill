@@ -1,0 +1,1 @@
+SELECT osm_id,way,name,building FROM planet_osm_polygon WHERE  name IN ('Chassotte','Frigaz','Garcia');
