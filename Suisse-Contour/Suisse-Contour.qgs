@@ -1,0 +1,954 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.8.0-Lisboa">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>795014.628520</xmin>
+            <ymin>5909590.487973</ymin>
+            <xmax>797604.383994</xmax>
+            <ymax>5911058.193334</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                <srsid>3116</srsid>
+                <srid>32632</srid>
+                <authid>EPSG:32632</authid>
+                <description>WGS 84 / UTM zone 32N</description>
+                <projectionacronym>utm</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="false">
+        <legendgroup open="true" checked="Qt::Checked" name="Coutour">
+            <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="W" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="contour20121010171952442" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Checked" name="NE" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="NE20121010171807039" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Checked" name="S" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="S20121010171547915" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="6" open="false" checked="Qt::Checked" name="SE" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="SE20121010171718635" visible="1"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="N" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="N20121010171635630" visible="1"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Raster">
+            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="CH-S" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="p195r028_036_214_R_GeoTiff20121010170021356" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="8" open="false" checked="Qt::Unchecked" name="CH-W" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="p196r028_036_259_R_GeoTiff20121010170130995" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="CH-SE" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="p194r028_036_167_R_GeoTiff20121010165920513" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="CH-N" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="p195r027_036_213_R_GeoTiff20121010165947107" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="12" open="false" checked="Qt::Unchecked" name="CH-NE" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="p194r027_036_166_R_GeoTiff20121010165808581" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+        <legendgroup open="true" checked="Qt::Unchecked" name="GIS">
+            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="planet_osm_line" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="planet_osm_line20121010174622127" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="planet_osm_polygon" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="planet_osm_polygon20121010174622713" visible="0"/>
+                </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="planet_osm_point" showFeatureCount="0">
+                <filegroup open="true" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="planet_osm_point20121010174622815" visible="0"/>
+                </filegroup>
+            </legendlayer>
+        </legendgroup>
+    </legend>
+    <projectlayers layercount="13">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>N20121010171635630</id>
+            <datasource>./N</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>N</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="153,213,140,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>NE20121010171807039</id>
+            <datasource>./NE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>NE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="69,22,145,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>S20121010171547915</id>
+            <datasource>./S</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>S</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="195,137,99,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>SE20121010171718635</id>
+            <datasource>./SE</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>SE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="65,179,88,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>contour20121010171952442</id>
+            <datasource>./W/contour.dbf</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>W</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>100000</srsid>
+                    <srid>0</srid>
+                    <authid>USER:100000</authid>
+                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
+                    <projectionacronym>tmerc</projectionacronym>
+                    <ellipsoidacronym></ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="UTF-8">ogr</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="29,175,126,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ELEVATION"/>
+                <edittype type="0" name="ID"/>
+            </edittypes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>p194r027_036_166_R_GeoTiff20121010165808581</id>
+            <datasource>./GEO-Tiffs/p194r027_036-166_R_GeoTiff.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>CH-NE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Bande 1</mRedBandName>
+                <mGreenBandName>Bande 2</mGreenBandName>
+                <mBlueBandName>Bande 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>p194r028_036_167_R_GeoTiff20121010165920513</id>
+            <datasource>./GEO-Tiffs/p194r028_036-167_R_GeoTiff.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>CH-SE</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Bande 1</mRedBandName>
+                <mGreenBandName>Bande 2</mGreenBandName>
+                <mBlueBandName>Bande 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>p195r027_036_213_R_GeoTiff20121010165947107</id>
+            <datasource>./GEO-Tiffs/p195r027_036-213_R_GeoTiff.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>CH-N</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Bande 1</mRedBandName>
+                <mGreenBandName>Bande 2</mGreenBandName>
+                <mBlueBandName>Bande 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>p195r028_036_214_R_GeoTiff20121010170021356</id>
+            <datasource>./GEO-Tiffs/p195r028_036-214_R_GeoTiff.tif</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>CH-S</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Bande 1</mRedBandName>
+                <mGreenBandName>Bande 2</mGreenBandName>
+                <mBlueBandName>Bande 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>p196r028_036_259_R_GeoTiff20121010170130995</id>
+            <datasource>./GEO-Tiffs/p196r028_036-259_R_GeoTiff.tif</datasource>
+            <title>CH-W</title>
+            <abstract></abstract>
+            <layername>CH-W</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <customproperties/>
+            <provider>gdal</provider>
+            <rasterproperties>
+                <mDrawingStyle>MultiBandColor</mDrawingStyle>
+                <mColorShadingAlgorithm>UndefinedShader</mColorShadingAlgorithm>
+                <mInvertColor boolean="false"/>
+                <mRedBandName>Bande 1</mRedBandName>
+                <mGreenBandName>Bande 2</mGreenBandName>
+                <mBlueBandName>Bande 3</mBlueBandName>
+                <mGrayBandName>Not Set</mGrayBandName>
+                <mStandardDeviations>0</mStandardDeviations>
+                <mUserDefinedRGBMinimumMaximum boolean="false"/>
+                <mRGBMinimumMaximumEstimated boolean="true"/>
+                <mUserDefinedGrayMinimumMaximum boolean="false"/>
+                <mGrayMinimumMaximumEstimated boolean="true"/>
+                <mContrastEnhancementAlgorithm>NoEnhancement</mContrastEnhancementAlgorithm>
+                <contrastEnhancementMinMaxValues>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                    <minMaxEntry>
+                        <min>0</min>
+                        <max>255</max>
+                    </minMaxEntry>
+                </contrastEnhancementMinMaxValues>
+                <mNoDataValue mValidNoDataValue="true">-32768.000000</mNoDataValue>
+                <singleValuePixelList>
+                    <pixelListEntry pixelValue="-32768.000000" percentTransparent="100"/>
+                </singleValuePixelList>
+                <threeValuePixelList>
+                    <pixelListEntry red="-32768.000000" blue="-32768.000000" green="-32768.000000" percentTransparent="100"/>
+                    <pixelListEntry red="0.000000" blue="0.000000" green="0.000000" percentTransparent="100"/>
+                </threeValuePixelList>
+            </rasterproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>planet_osm_line20121010174622127</id>
+            <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=LINESTRING table="planet_osm_line" (way) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>planet_osm_line</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="132,121,217,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>addr:housename</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>planet_osm_point20121010174622815</id>
+            <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=POINT table="planet_osm_point" (way) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>planet_osm_point</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="marker" name="0">
+                        <layer pass="0" class="SimpleMarker" locked="0">
+                            <prop k="angle" v="0"/>
+                            <prop k="color" v="195,137,99,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="name" v="circle"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="size" v="2"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>addr:housename</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>planet_osm_polygon20121010174622713</id>
+            <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=POLYGON table="planet_osm_polygon" (way) sql=</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>planet_osm_polygon</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="48,104,200,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield>addr:housename</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform>.</editform>
+            <editforminit></editforminit>
+            <annotationform>.</annotationform>
+            <attributeactions/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3116</ProjectCRSID>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
