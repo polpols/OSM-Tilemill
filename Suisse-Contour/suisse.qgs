@@ -1,0 +1,122 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="1.8.0-Lisboa">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>745453.040021</xmin>
+            <ymin>5824264.325730</ymin>
+            <xmax>1018505.933771</xmax>
+            <ymax>6001440.330710</ymax>
+        </extent>
+        <projections>0</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                <srsid>3644</srsid>
+                <srid>900913</srid>
+                <authid>EPSG:900913</authid>
+                <description>Google Mercator</description>
+                <projectionacronym>merc</projectionacronym>
+                <ellipsoidacronym>WGS84</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="false">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="suisse_polygon" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="suisse_polygon20121012134819554" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <projectlayers layercount="1">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+            <id>suisse_polygon20121012134819554</id>
+            <datasource>dbname='suisse' host=localhost port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=POLYGON table="suisse_polygon" (way) sql="boundary" = 'administrative'</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>suisse_polygon</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3644</srsid>
+                    <srid>900913</srid>
+                    <authid>EPSG:900913</authid>
+                    <description>Google Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">postgres</provider>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol outputUnit="MM" alpha="1" type="fill" name="0">
+                        <layer pass="0" class="SimpleFill" locked="0">
+                            <prop k="color" v="69,22,145,255"/>
+                            <prop k="color_border" v="0,0,0,255"/>
+                            <prop k="offset" v="0,0"/>
+                            <prop k="style" v="solid"/>
+                            <prop k="style_border" v="solid"/>
+                            <prop k="width_border" v="0.26"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field=""/>
+            </renderer-v2>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">3644</ProjectCRSID>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>

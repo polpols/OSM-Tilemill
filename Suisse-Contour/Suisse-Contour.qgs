@@ -4,10 +4,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>795014.628520</xmin>
-            <ymin>5909590.487973</ymin>
-            <xmax>797604.383994</xmax>
-            <ymax>5911058.193334</ymax>
+            <xmin>6.971932</xmin>
+            <ymin>46.682744</ymin>
+            <xmax>7.380460</xmax>
+            <ymax>46.947827</ymax>
         </extent>
         <projections>0</projections>
         <destinationsrs>
@@ -23,81 +23,246 @@
             </spatialrefsys>
         </destinationsrs>
     </mapcanvas>
-    <legend updateDrawingOrder="false">
-        <legendgroup open="true" checked="Qt::Checked" name="Coutour">
-            <legendlayer drawingOrder="3" open="true" checked="Qt::Checked" name="W" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="contour20121010171952442" visible="1"/>
+    <legend updateDrawingOrder="true">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Coutour">
+            <legendlayer drawingOrder="3" open="false" checked="Qt::Unchecked" name="W" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
+                    <legendlayerfile isInOverview="0" layerid="contour20121010171952442" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="4" open="false" checked="Qt::Checked" name="NE" showFeatureCount="0">
+            <legendlayer drawingOrder="5" open="false" checked="Qt::Unchecked" name="NE" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="NE20121010171807039" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="NE20121010171807039" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="5" open="false" checked="Qt::Checked" name="S" showFeatureCount="0">
+            <legendlayer drawingOrder="7" open="false" checked="Qt::Unchecked" name="S" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="S20121010171547915" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="S20121010171547915" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="6" open="false" checked="Qt::Checked" name="SE" showFeatureCount="0">
+            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="SE" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="SE20121010171718635" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="SE20121010171718635" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="7" open="false" checked="Qt::Checked" name="N" showFeatureCount="0">
+            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="N" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="N20121010171635630" visible="1"/>
+                    <legendlayerfile isInOverview="0" layerid="N20121010171635630" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="false" checked="Qt::Unchecked" name="Raster">
-            <legendlayer drawingOrder="9" open="false" checked="Qt::Unchecked" name="CH-S" showFeatureCount="0">
+        <legendgroup open="true" checked="Qt::PartiallyChecked" name="Raster">
+            <legendlayer drawingOrder="12" open="false" checked="Qt::Checked" name="CH-S" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="p195r028_036_214_R_GeoTiff20121010170021356" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="p195r028_036_214_R_GeoTiff20121010170021356" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="8" open="false" checked="Qt::Unchecked" name="CH-W" showFeatureCount="0">
+            <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="CH-W" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="p196r028_036_259_R_GeoTiff20121010170130995" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="11" open="false" checked="Qt::Unchecked" name="CH-SE" showFeatureCount="0">
+            <legendlayer drawingOrder="14" open="false" checked="Qt::Unchecked" name="CH-SE" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="p194r028_036_167_R_GeoTiff20121010165920513" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="10" open="false" checked="Qt::Unchecked" name="CH-N" showFeatureCount="0">
+            <legendlayer drawingOrder="13" open="false" checked="Qt::Checked" name="CH-N" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
-                    <legendlayerfile isInOverview="0" layerid="p195r027_036_213_R_GeoTiff20121010165947107" visible="0"/>
+                    <legendlayerfile isInOverview="0" layerid="p195r027_036_213_R_GeoTiff20121010165947107" visible="1"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="12" open="false" checked="Qt::Unchecked" name="CH-NE" showFeatureCount="0">
+            <legendlayer drawingOrder="15" open="false" checked="Qt::Unchecked" name="CH-NE" showFeatureCount="0">
                 <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="p194r027_036_166_R_GeoTiff20121010165808581" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
-        <legendgroup open="true" checked="Qt::Unchecked" name="GIS">
-            <legendlayer drawingOrder="0" open="true" checked="Qt::Unchecked" name="planet_osm_line" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+        <legendgroup open="false" checked="Qt::Unchecked" name="GIS">
+            <legendlayer drawingOrder="4" open="false" checked="Qt::Unchecked" name="planet_osm_line" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="planet_osm_line20121010174622127" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="1" open="true" checked="Qt::Unchecked" name="planet_osm_polygon" showFeatureCount="0">
-                <filegroup open="true" hidden="false">
+            <legendlayer drawingOrder="6" open="false" checked="Qt::Unchecked" name="planet_osm_polygon" showFeatureCount="0">
+                <filegroup open="false" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="planet_osm_polygon20121010174622713" visible="0"/>
                 </filegroup>
             </legendlayer>
-            <legendlayer drawingOrder="2" open="true" checked="Qt::Unchecked" name="planet_osm_point" showFeatureCount="0">
+            <legendlayer drawingOrder="8" open="true" checked="Qt::Unchecked" name="planet_osm_point" showFeatureCount="0">
                 <filegroup open="true" hidden="false">
                     <legendlayerfile isInOverview="0" layerid="planet_osm_point20121010174622815" visible="0"/>
                 </filegroup>
             </legendlayer>
         </legendgroup>
+        <legendlayer drawingOrder="0" open="true" checked="Qt::Checked" name="Fribourg points" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Fribourg_points20121012102708936" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="1" open="true" checked="Qt::Checked" name="Fribourg lines" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Fribourg_lines20121012102708867" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="2" open="true" checked="Qt::Checked" name="Fribourg polygons" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="Fribourg_polygons20121012102702315" visible="1"/>
+            </filegroup>
+        </legendlayer>
     </legend>
-    <projectlayers layercount="13">
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+    <projectlayers layercount="16">
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>Fribourg_lines20121012102708867</id>
+            <datasource>../OSM/Fribourg.osm?type=line&amp;tag=name&amp;style=/Applications/QGIS.app/Contents/Resources/python/plugins/osm/styles/small_scale.style</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Fribourg lines</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">osm</provider>
+            <vectorjoins/>
+            <classificationattribute>tags</classificationattribute>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Point" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>Fribourg_points20121012102708936</id>
+            <datasource>../OSM/Fribourg.osm?type=point&amp;tag=name&amp;style=/Applications/QGIS.app/Contents/Resources/python/plugins/osm/styles/small_scale.style</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Fribourg points</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">osm</provider>
+            <vectorjoins/>
+            <classificationattribute>tags</classificationattribute>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>Fribourg_polygons20121012102702315</id>
+            <datasource>../OSM/Fribourg.osm?type=polygon&amp;tag=name&amp;style=/Applications/QGIS.app/Contents/Resources/python/plugins/osm/styles/small_scale.style</datasource>
+            <title></title>
+            <abstract></abstract>
+            <layername>Fribourg polygons</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <srsid>3452</srsid>
+                    <srid>4326</srid>
+                    <authid>EPSG:4326</authid>
+                    <description>WGS 84</description>
+                    <projectionacronym>longlat</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>true</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <transparencyLevelInt>255</transparencyLevelInt>
+            <provider encoding="System">osm</provider>
+            <vectorjoins/>
+            <classificationattribute>tags</classificationattribute>
+            <customproperties/>
+            <displayfield></displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Étiquette"/>
+                <family fieldname="" name="Lucida Grande"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>N20121010171635630</id>
             <datasource>./N</datasource>
             <title></title>
@@ -105,13 +270,13 @@
             <layername>N</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-                    <srsid>100000</srsid>
-                    <srid>0</srid>
-                    <authid>USER:100000</authid>
-                    <description> * SCR généré (+proj=tmerc +lat_0=0 +lon_0=0 +k=1 +x_0=0 +y_0=0 +ellps=WGS84 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs)</description>
-                    <projectionacronym>tmerc</projectionacronym>
-                    <ellipsoidacronym></ellipsoidacronym>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
             </srs>
@@ -123,7 +288,7 @@
                     <symbol outputUnit="MM" alpha="1" type="line" name="0">
                         <layer pass="0" class="SimpleLine" locked="0">
                             <prop k="capstyle" v="square"/>
-                            <prop k="color" v="153,213,140,255"/>
+                            <prop k="color" v="255,170,127,255"/>
                             <prop k="customdash" v="5;2"/>
                             <prop k="joinstyle" v="bevel"/>
                             <prop k="offset" v="0"/>
@@ -159,6 +324,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <edittypes>
+                <edittype type="0" name="ELEVATION"/>
+                <edittype type="0" name="ID"/>
+            </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -554,7 +723,7 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="1">
             <id>p195r027_036_213_R_GeoTiff20121010165947107</id>
             <datasource>./GEO-Tiffs/p195r027_036-213_R_GeoTiff.tif</datasource>
             <title></title>
@@ -731,7 +900,7 @@
                 </threeValuePixelList>
             </rasterproperties>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>planet_osm_line20121010174622127</id>
             <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=LINESTRING table="planet_osm_line" (way) sql=</datasource>
             <title></title>
@@ -793,6 +962,74 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <edittypes>
+                <edittype type="0" name="access"/>
+                <edittype type="0" name="addr:housename"/>
+                <edittype type="0" name="addr:housenumber"/>
+                <edittype type="0" name="addr:interpolation"/>
+                <edittype type="0" name="admin_level"/>
+                <edittype type="0" name="aerialway"/>
+                <edittype type="0" name="aeroway"/>
+                <edittype type="0" name="amenity"/>
+                <edittype type="0" name="area"/>
+                <edittype type="0" name="barrier"/>
+                <edittype type="0" name="bicycle"/>
+                <edittype type="0" name="boundary"/>
+                <edittype type="0" name="brand"/>
+                <edittype type="0" name="bridge"/>
+                <edittype type="0" name="building"/>
+                <edittype type="0" name="construction"/>
+                <edittype type="0" name="covered"/>
+                <edittype type="0" name="culvert"/>
+                <edittype type="0" name="cutting"/>
+                <edittype type="0" name="denomination"/>
+                <edittype type="0" name="disused"/>
+                <edittype type="0" name="embankment"/>
+                <edittype type="0" name="foot"/>
+                <edittype type="0" name="generator:source"/>
+                <edittype type="0" name="harbour"/>
+                <edittype type="0" name="highway"/>
+                <edittype type="0" name="historic"/>
+                <edittype type="0" name="horse"/>
+                <edittype type="0" name="intermittent"/>
+                <edittype type="0" name="junction"/>
+                <edittype type="0" name="landuse"/>
+                <edittype type="0" name="layer"/>
+                <edittype type="0" name="leisure"/>
+                <edittype type="0" name="lock"/>
+                <edittype type="0" name="man_made"/>
+                <edittype type="0" name="military"/>
+                <edittype type="0" name="motorcar"/>
+                <edittype type="0" name="name"/>
+                <edittype type="0" name="natural"/>
+                <edittype type="0" name="oneway"/>
+                <edittype type="0" name="operator"/>
+                <edittype type="0" name="osm_id"/>
+                <edittype type="0" name="place"/>
+                <edittype type="0" name="population"/>
+                <edittype type="0" name="power"/>
+                <edittype type="0" name="power_source"/>
+                <edittype type="0" name="railway"/>
+                <edittype type="0" name="ref"/>
+                <edittype type="0" name="religion"/>
+                <edittype type="0" name="route"/>
+                <edittype type="0" name="service"/>
+                <edittype type="0" name="shop"/>
+                <edittype type="0" name="sport"/>
+                <edittype type="0" name="surface"/>
+                <edittype type="0" name="toll"/>
+                <edittype type="0" name="tourism"/>
+                <edittype type="0" name="tower:type"/>
+                <edittype type="0" name="tracktype"/>
+                <edittype type="0" name="tunnel"/>
+                <edittype type="0" name="water"/>
+                <edittype type="0" name="waterway"/>
+                <edittype type="0" name="way_area"/>
+                <edittype type="0" name="wetland"/>
+                <edittype type="0" name="width"/>
+                <edittype type="0" name="wood"/>
+                <edittype type="0" name="z_order"/>
+            </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
@@ -863,20 +1100,20 @@
             <annotationform>.</annotationform>
             <attributeactions/>
         </maplayer>
-        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="0">
+        <maplayer minimumScale="0" maximumScale="1e+08" geometry="Polygon" type="vector" hasScaleBasedVisibilityFlag="1">
             <id>planet_osm_polygon20121010174622713</id>
-            <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=POLYGON table="planet_osm_polygon" (way) sql=</datasource>
+            <datasource>dbname='fribourg' host=127.0.0.1 port=5432 user='polpols' password='ben3shi4huo3' sslmode=disable key='tid' srid=900913 type=POLYGON table="planet_osm_polygon" (way) sql="building" IS NOT NULL</datasource>
             <title></title>
             <abstract></abstract>
             <layername>planet_osm_polygon</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
-                    <srsid>3644</srsid>
-                    <srid>900913</srid>
-                    <authid>EPSG:900913</authid>
-                    <description>Google Mercator</description>
-                    <projectionacronym>merc</projectionacronym>
+                    <proj4>+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs</proj4>
+                    <srsid>3116</srsid>
+                    <srid>32632</srid>
+                    <authid>EPSG:32632</authid>
+                    <description>WGS 84 / UTM zone 32N</description>
+                    <projectionacronym>utm</projectionacronym>
                     <ellipsoidacronym>WGS84</ellipsoidacronym>
                     <geographicflag>false</geographicflag>
                 </spatialrefsys>
@@ -923,6 +1160,74 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
+            <edittypes>
+                <edittype type="0" name="access"/>
+                <edittype type="0" name="addr:housename"/>
+                <edittype type="0" name="addr:housenumber"/>
+                <edittype type="0" name="addr:interpolation"/>
+                <edittype type="0" name="admin_level"/>
+                <edittype type="0" name="aerialway"/>
+                <edittype type="0" name="aeroway"/>
+                <edittype type="0" name="amenity"/>
+                <edittype type="0" name="area"/>
+                <edittype type="0" name="barrier"/>
+                <edittype type="0" name="bicycle"/>
+                <edittype type="0" name="boundary"/>
+                <edittype type="0" name="brand"/>
+                <edittype type="0" name="bridge"/>
+                <edittype type="0" name="building"/>
+                <edittype type="0" name="construction"/>
+                <edittype type="0" name="covered"/>
+                <edittype type="0" name="culvert"/>
+                <edittype type="0" name="cutting"/>
+                <edittype type="0" name="denomination"/>
+                <edittype type="0" name="disused"/>
+                <edittype type="0" name="embankment"/>
+                <edittype type="0" name="foot"/>
+                <edittype type="0" name="generator:source"/>
+                <edittype type="0" name="harbour"/>
+                <edittype type="0" name="highway"/>
+                <edittype type="0" name="historic"/>
+                <edittype type="0" name="horse"/>
+                <edittype type="0" name="intermittent"/>
+                <edittype type="0" name="junction"/>
+                <edittype type="0" name="landuse"/>
+                <edittype type="0" name="layer"/>
+                <edittype type="0" name="leisure"/>
+                <edittype type="0" name="lock"/>
+                <edittype type="0" name="man_made"/>
+                <edittype type="0" name="military"/>
+                <edittype type="0" name="motorcar"/>
+                <edittype type="0" name="name"/>
+                <edittype type="0" name="natural"/>
+                <edittype type="0" name="oneway"/>
+                <edittype type="0" name="operator"/>
+                <edittype type="0" name="osm_id"/>
+                <edittype type="0" name="place"/>
+                <edittype type="0" name="population"/>
+                <edittype type="0" name="power"/>
+                <edittype type="0" name="power_source"/>
+                <edittype type="0" name="railway"/>
+                <edittype type="0" name="ref"/>
+                <edittype type="0" name="religion"/>
+                <edittype type="0" name="route"/>
+                <edittype type="0" name="service"/>
+                <edittype type="0" name="shop"/>
+                <edittype type="0" name="sport"/>
+                <edittype type="0" name="surface"/>
+                <edittype type="0" name="toll"/>
+                <edittype type="0" name="tourism"/>
+                <edittype type="0" name="tower:type"/>
+                <edittype type="0" name="tracktype"/>
+                <edittype type="0" name="tunnel"/>
+                <edittype type="0" name="water"/>
+                <edittype type="0" name="waterway"/>
+                <edittype type="0" name="way_area"/>
+                <edittype type="0" name="wetland"/>
+                <edittype type="0" name="width"/>
+                <edittype type="0" name="wood"/>
+                <edittype type="0" name="z_order"/>
+            </edittypes>
             <editform>.</editform>
             <editforminit></editforminit>
             <annotationform>.</annotationform>
