@@ -1,0 +1,1 @@
+osm2pgsql --create --database suisse --prefix suisse  --style /Volumes/DIVERS/GH/OSM-Tilemill/OSM/default.style --hstore-column "swisstopo:" --hstore-column "bfs:" /Volumes/DIVERS/GH/OSM-Tilemill/OSM/switzerland.osm
