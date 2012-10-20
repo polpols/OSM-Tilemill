@@ -46,6 +46,16 @@ node,way bfs:OBJECTORIG		text
 node,way bfs:SEENR			int8
 node,way bfs:YEAROFCHAN		int4
 
+name:BLWE  	text
+name:FWB   	text
+name:PAG   	text
+name:SBB   	text
+name:SOB   	text
+name:fr    	text
+name:de    	text
+name:it    	text
+name:en    	text
+
 node,way   access       text         linear
 node,way   addr:housename      text  linear
 node,way   addr:housenumber    text  linear
