@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1"
+    xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+    xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1"
+    xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" creator="GPSMAP 62s"
+    version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+    <metadata>
+        <link href="http://www.garmin.com">
+            <text>Garmin International</text>
+        </link>
+        <time>2012-10-05T14:42:45Z</time>
+    </metadata>
+    <wpt lat="46.805429" lon="7.168814">
+        <ele>486.445740</ele>
+        <time>2012-10-05T14:42:45Z</time>
+        <name>011</name>
+        <cmt>17</cmt>
+        <sym>Flag, Blue</sym>
+    </wpt>
+    <wpt lat="46.806554" lon="7.167373">
+        <ele>538.510010</ele>
+        <time>2012-10-05T15:29:28Z</time>
+        <name>012</name>
+        <cmt>SOUSPONT</cmt>
+        <sym>Flag, Blue</sym>
+    </wpt>
+</gpx>
